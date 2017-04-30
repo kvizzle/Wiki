@@ -1,0 +1,117 @@
+body {
+  Height: 100%;
+  Position: absolute;
+}
+
+.container-fluid {
+  background: -webkit-linear-gradient(left top, rgb(51, 236, 240), rgb(33, 237, 191))no-repeat;
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, rgb(51, 236, 240), rgb(33, 237, 191))no-repeat;
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, rgb(51, 236, 240), rgb(33, 237, 191))no-repeat;
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom rgb(51, 236, 240), rgb(33, 237, 191))no-repeat;
+  /* Standard syntax (must be last) */
+  Min-height: 100%;
+  Position: relative;
+  background-size: auto;
+  background-color: rgb(33, 237, 191);
+}
+
+form {
+  text-align: center;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 20px;
+  font-family: 'Overlock', cursive;
+  font-size: 20px;
+}
+
+button {
+  margin: 20px !important;
+  color: white!important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  box-shadow: 1px 5px 15px #888888;
+}
+
+.heading {
+ font-family: 'Merriweather', serif;
+  color: white;
+  padding: 20px;
+  margin: 0px !important;
+}
+
+.results {
+  font-size: 25px;
+
+}
+
+.resultArea {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0px 50px;
+  padding: 20px;
+  color: black;
+  text-align: center;
+ box-shadow: 1px 1px 5px #888888;
+  border-radius: 10px;
+  font-family: 'Overlock', cursive;
+}
+
+.snippet {
+  color: black;
+  
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 50px;
+}
+
+.resultArea:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+ 
+  .heading {
+    font-size: 35px;
+    padding: 10px;
+  }
+  .snippet {
+    display: none;
+  }
+  
+  .results {
+    font-size: 15px;
+    margin-top: 10px;
+   
+    
+  }
+  
+  .resultArea {
+  padding: 10px;
+    
+   
+    border-radius: 5px;
+
+  }
+  
+  .resultArea:hover {
+  
+    text-decoration: none;
+  }
+  input {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  
+}
